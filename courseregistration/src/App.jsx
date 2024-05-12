@@ -1,11 +1,17 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import COEPage from './components/COEPage'; // Update the import path here
+import Home from './components/Home'; // Import other components/pages
 
 function App() {
+
   return (
     <div>
-      <h1>Course Registration System</h1>
-      <COEPage />
+      <Routes>
+        <Route path="/" element={<COEPage/>} />
+        <Route path="/coe" element={< COEPage/>} />
+      </Routes>
     </div>
   );
 }
