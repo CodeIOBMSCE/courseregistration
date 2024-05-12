@@ -1,5 +1,4 @@
 
-```markdown
 ## courseregistration
 
 Welcome to the courseregistration project! This project is part of the CodeIO internship program and aims to create course registration and reregistration portals.
