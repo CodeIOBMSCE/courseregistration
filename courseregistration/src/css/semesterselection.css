@@ -1,33 +1,53 @@
 .semselection-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    max-width: 300px;
-    margin: 2rem auto; /* Center horizontally with auto margin */
+    padding: 20px; /* Add padding to the container */
   }
   
+  /* Style the label */
   .semselection-container label {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 0.5rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Color for the label */
   }
   
+  /* Style the select element */
   .semselection-container select {
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    transition: border-color 0.2s;
+    width: 100%; /* Make the select element full-width */
+    padding: 10px; /* Add padding to the select element */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    border: 1px solid #ccc; /* Add a border */
+    background-color: #fff; /* Background color for the select */
+    color: #333; /* Text color for the select */
   }
   
-  .semselection-container select:focus {
-    border-color: #596dce;
-    outline: none;
+  /* Style the option elements */
+  .semselection-container option {
+    background-color: #f0f0f0; /* Background color for options */
+    color: #333; /* Text color for options */
+  }
+  
+  /* Style the tabs */
+  .chakra-tabs {
+    margin-top: 20px; /* Add margin above the tabs */
+  }
+  
+  /* Style the tab list */
+  .chakra-tab-list {
+    background-color: #596dce; /* Background color for tab list */
+    padding: 10px; /* Add padding to the tab list */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+  }
+  
+  /* Style the tabs */
+  .chakra-tab {
+    color: #fff; /* Text color for tabs */
+    background-color: #333; /* Background color for tabs */
+    padding: 10px; /* Add padding to the tabs */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    margin-right: 10px; /* Add margin between tabs */
+  }
+  
+  /* Style the tab panels */
+  .chakra-tab-panel {
+    padding: 20px; /* Add padding to the tab panels */
   }
   

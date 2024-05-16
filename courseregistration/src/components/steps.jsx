@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Box,
   Stepper,
@@ -11,12 +11,12 @@ import {
   StepIcon,
   StepNumber,
   useSteps,
-} from "@chakra-ui/react";
-import "../css/steps.css";
+} from '@chakra-ui/react';
+import '../css/steps.css';
 
-const Steps = ({ steps, onStepChange }) => {
-  const { activeStep, setActiveStep } = useSteps({
-    index: 0, // Initial active step index
+const Steps = ({ steps, onStepChange, activeStep }) => {
+  const { setActiveStep } = useSteps({
+    index: activeStep, // Use the activeStep prop as the initial active step index
     count: steps.length,
   });
 
@@ -54,14 +54,12 @@ const Steps = ({ steps, onStepChange }) => {
           onClick={() => handleStepClick(activeStep - 1)}
         >
           <span className="material-symbols-outlined">chevron_left</span>
-        
         </button>
         <button
           className="nav-button"
           disabled={activeStep === steps.length - 1}
           onClick={() => handleStepClick(activeStep + 1)}
         >
-      
           <span className="material-symbols-outlined">chevron_right</span>
         </button>
       </div>

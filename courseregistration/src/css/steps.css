@@ -10,7 +10,7 @@
     background-color: #e6e6e6;
     z-index: 999; /* Ensure it's on top of other content */
     padding: 1rem; /* Add some padding for better spacing */
-    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.404); /* Optional: Add shadow for better visibility */
 }
 
 .steps-container .chakra-stepper {
