@@ -1,0 +1,62 @@
+.steps-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: auto; /* Make the width fit the content */
+    height: 100%; /* Make it span the full height of the page */
+    background-color: #e6e6e6;
+    z-index: 999; /* Ensure it's on top of other content */
+    padding: 1rem; /* Add some padding for better spacing */
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+.steps-container .chakra-stepper {
+    display: flex;
+    flex-direction: column; /* Stack the steps vertically */
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.steps-container .chakra-step {
+    cursor: pointer; /* Add pointer cursor to indicate clickable steps */
+    margin-bottom: 1rem; /* Add some space between steps */
+}
+
+.nav-button {
+    margin: 0.5rem; /* Add margin around buttons for spacing */
+    padding: 0.5rem 1rem; /* Add padding for better button size */
+    background-color: #596dce; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Slightly round the corners */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between icon and text */
+}
+
+.nav-button:disabled {
+    background-color: #ccc; /* Change background color when disabled */
+    cursor: not-allowed; /* Change cursor to not-allowed when disabled */
+}
+
+.main-content {
+    margin-left: 250px; /* Adjust margin to leave space for the stepper */
+    padding: 2rem; /* Add some padding */
+}
+
+.step-content {
+    margin-top: 2rem; /* Add some space above the step content */
+}
+
+.step-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem; /* Add gap between buttons */
+}

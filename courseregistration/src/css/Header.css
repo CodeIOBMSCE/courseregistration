@@ -1,28 +1,35 @@
-/* Header.css */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3a3a3a; /* Adjust background color as needed */
+  z-index: 1000; /* Ensure the header appears above other content */
+}
 
-.header-container {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .nav-links li a:hover {
-    text-decoration: underline;
-  }
-  
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; /* Adjust padding as needed */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333; /* Adjust link color as needed */
+}
+
+a:hover {
+  text-decoration: underline;
+}
