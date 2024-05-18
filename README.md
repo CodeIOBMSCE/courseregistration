@@ -90,9 +90,4 @@ We welcome contributions from the community to improve the courseregistration pr
 
 6. After approval, your changes will be merged into the main project.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Feel free to copy and paste this Markdown content into your README file on GitHub. It covers all the necessary points in a structured format.
