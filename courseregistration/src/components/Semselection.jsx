@@ -16,6 +16,10 @@ function Semselection({ onSelectSemester, onNextStep }) {
     { id: 3, name: 'Machine Learning', credits: 2 },
     { id: 4, name: 'Machine Learning', credits: 2 },
     { id: 5, name: 'Machine Learning', credits: 1 },
+    { id: 6, name: 'Machine Learning', credits: 1 },
+    { id: 7, name: 'Machine Learning', credits: 1 },
+    { id: 8, name: 'Machine Learning', credits: 1 },
+
   ]);
 
   const handleDepartmentChange = (value) => {
@@ -46,8 +50,12 @@ function Semselection({ onSelectSemester, onNextStep }) {
         value={selectedDepartment}
       >
         <option value="">Select Department</option>
-        <option value="dept1">Department 1</option>
-        <option value="dept2">Department 2</option>
+        <option value="dept1">Computer Science and Engineering</option>
+        <option value="dept2">Information Science</option>
+        <option value="dept3">Aerospace and Engineering</option>
+        <option value="dept4">Civil</option>
+        <option value="dept5">Mechanical</option>
+
       </Select>
 
       {selectedDepartment && (

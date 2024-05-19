@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Table, Thead, Tbody, Tr, Th, Td } from '@chakra-ui/react';
+import '../css/courseaddition.css';
+
 
 function CoursetableEditable({ courses }) {
   const [editableCourses, setEditableCourses] = useState(courses.map(course => ({ ...course, isEditing: false })));
@@ -68,9 +70,9 @@ function CoursetableEditable({ courses }) {
             </Td>
             <Td>
               {course.isEditing ? (
-                <button onClick={() => handleSaveClick(course.id)}>Save</button>
+                <button className='editbutton' onClick={() => handleSaveClick(course.id)}>Save</button>
               ) : (
-                <button onClick={() => handleEditClick(course.id)}>Edit</button>
+                <button  className='editbutton' onClick={() => handleEditClick(course.id)}>Edit</button>
               )}
             </Td>
           </Tr>

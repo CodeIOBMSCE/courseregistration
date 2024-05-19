@@ -10,6 +10,9 @@ function CourseAddition() {
     { id: 3, name: 'Machine Learning', credits: 2 },
     { id: 4, name: 'Machine Learning', credits: 2 },
     { id: 5, name: 'Machine Learning', credits: 1 },
+    { id: 6, name: 'Machine Learning', credits: 1 },
+    { id: 7, name: 'Machine Learning', credits: 1 },
+    { id: 8, name: 'Machine Learning', credits: 1 },
   ]);
 
   const [showForm, setShowForm] = useState(false);

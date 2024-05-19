@@ -3,21 +3,39 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #3a3a3a; /* Adjust background color as needed */
+  background-color: #7f7e7e; /* Adjust background color as needed */
   z-index: 1000; /* Ensure the header appears above other content */
-}
-
-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem; /* Adjust padding as needed */
+  padding: 1rem 2rem; 
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px; /* Adjust the height of the logo */
+  width: auto;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  gap: 1rem;
+  justify-content: space-between; /* Ensure items are spaced out evenly */
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   color: white;
 }
 
@@ -25,11 +43,21 @@ li {
   font-size: 1.2rem;
 }
 
-a {
+a, span {
   text-decoration: none;
-  color: #333; /* Adjust link color as needed */
+  color: white; /* Adjust link color as needed */
 }
 
-a:hover {
+a:hover, span:hover {
   text-decoration: underline;
+}
+
+.center-item {
+  flex: 1;
+  text-align: center;
+}
+
+.center-item span {
+  font-size: 1.5rem; /* Adjust the font size for the heading */
+  font-weight: bold; /* Make the heading bold */
 }
