@@ -1,0 +1,168 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+}
+
+
+
+.logo {
+  height: 40px;
+}
+
+.btn-group_item1 {
+  background-color: #027afd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-group_item1:hover {
+  background-color: #027afd;
+}
+
+.sidebar {
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.approve{
+    background-color: rgb(79, 233, 79);
+}
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button.active {
+  background-color: #ddd;
+}
+
+.sidebar button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  
+  display: flex ;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container>button {
+  color:white;
+}
+
+/* Style for the table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style for table headers */
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Style for table rows */
+tr:hover:not(tr) {
+
+  background-color: #525050;
+}
+
+/* Add a background color to the active tab */
+.active {
+  background-color: #f8f8f8;
+}
+
+/* Style for checkboxes */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #2f3fd3;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2f32d3;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "\2713";
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style for buttons */
+button {
+  background-color: #2f34d3;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #027afd;
+}

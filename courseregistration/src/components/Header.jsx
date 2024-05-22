@@ -14,7 +14,9 @@ const Header = () => {
           <li className="center-item">
             <span>COE - Course addition</span>
           </li>
-          {/* Add more navigation links as needed */}
+        <li>
+          <div className='logout'>Logout</div>
+        </li>
         </ul>
       </nav>
     </header>

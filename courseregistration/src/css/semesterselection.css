@@ -11,7 +11,7 @@
   
   /* Style the select element */
   .semselection-container select {
-    width: 100%; /* Make the select element full-width */
+    width: 60%; /* Make the select element full-width */
     padding: 10px; /* Add padding to the select element */
     border-radius: 5px; /* Add some border radius for rounded corners */
     border: 1px solid #ccc; /* Add a border */

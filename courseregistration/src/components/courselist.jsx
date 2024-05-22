@@ -21,10 +21,10 @@ function CourseTable({ courses }) {
             <Td>{course.credits}</Td>
           </Tr>
         ))}
-        <Tr borderTop='2px' borderColor='black'> {/* Updated border color */}
-          <Td></Td> {/* Empty cell for Course Name column */}
-          <Td>Total Credits</Td> {/* Empty cell for Course ID column */}
-          <Td fontWeight="bold" borderBottom="2px solid #ccc">{totalCredits}</Td> {/* Cell for total credits */}
+        <Tr borderTop='2px' borderColor='black'>
+          <Td></Td>
+          <Td>Total Credits</Td>
+          <Td fontWeight="bold" borderBottom="2px solid #ccc">{totalCredits}</Td>
         </Tr>
       </Tbody>
     </Table>

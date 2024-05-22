@@ -61,3 +61,13 @@ a:hover, span:hover {
   font-size: 1.5rem; /* Adjust the font size for the heading */
   font-weight: bold; /* Make the heading bold */
 }
+.logout{
+  box-sizing: border-box;
+  margin-right: 90px;
+  background-color: rgb(33, 83, 184);
+  padding: 3px;
+  border-radius: 2px;
+}
+.logout:hover{
+  cursor: pointer;
+}
