@@ -21,3 +21,18 @@ p{
   color:black;
 }
 
+body{
+  background-color: #E6E6E6;
+}
+.main-content{
+  background-color: #E6E6E6;
+  height: auto;
+  margin-left: 190px;
+}
+.steps-wrapper{
+  background-color: #E6E6E6;
+}
+.coe-container{
+  background-color: #E6E6E6;
+
+}

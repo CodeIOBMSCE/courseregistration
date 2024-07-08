@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // If using React Router
 import '../css/Header.css'; // Ensure this path is correct
 
-const Header = () => {
+const Header = ({ heading }) => {
   return (
     <header>
       <nav>
@@ -10,13 +10,12 @@ const Header = () => {
           <img src="/assets/bms_logo.png" alt="Logo" /> 
         </div>
         <ul>
-         
           <li className="center-item">
-            <span>COE - Course addition</span>
+            <span>{heading}</span>
           </li>
-        <li>
-          <div className='logout'>Logout</div>
-        </li>
+          <li>
+            <div className='logout'>Logout</div>
+          </li>
         </ul>
       </nav>
     </header>

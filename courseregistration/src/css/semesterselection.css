@@ -9,6 +9,9 @@
     color: #333; /* Color for the label */
   }
   
+  body{
+    background-color: #E6E6E6;
+  }
   /* Style the select element */
   .semselection-container select {
     width: 60%; /* Make the select element full-width */

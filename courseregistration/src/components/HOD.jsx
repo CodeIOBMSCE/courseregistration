@@ -62,7 +62,7 @@ const Registration = () => {
 
   return (
     <>
-      <Header heading="Proctor- Course registration Verifier" />
+      <Header heading="HOD- Course registration Approver" />
       <div className="sidebar">
         <button
           className={activeTab === 'approved' ? 'active' : ''}

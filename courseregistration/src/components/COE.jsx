@@ -24,7 +24,7 @@ function COE() {
   return (
     <ChakraProvider>
       <div className="coe-container">
-        <Header /> {/* Render the Header component */}
+        <Header heading="COE- Course Addition" /> {/* Render the Header component */}
         <div className="main-content">
           <div className="steps-wrapper">
             {/* Pass the steps array and step change handler to the Steps component */}
